@@ -137,8 +137,8 @@ MIT — free to use, share, and modify.
 ## 🔗 Connect
 
 Built by **[YOUR NAME]**
-- LinkedIn: [linkedin.com/in/YOUR_HANDLE](https://linkedin.com/in/YOUR_HANDLE)
-- GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- LinkedIn: https://www.linkedin.com/in/siddharth-kamble-311046
+- GitHub: https://github.com/sid-3110
 
 ---
 *Cybersecurity moves fast — if something is outdated, please open an issue.*
