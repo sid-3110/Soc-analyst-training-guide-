@@ -1,3 +1,15 @@
+# 🛡 SOC Analyst Training Guide
+
+Interactive terminal-style training guide for aspiring SOC Analysts.
+
+Learn core blue team concepts including:
+SOC Architecture • MITRE ATT&CK • Incident Response • Log Analysis • Phishing Investigation • Malware Basics • Cyber Threat Intelligence
+
+🚀 14 Interactive Modules  
+🧠 Beginner Friendly  
+⚡ Fully Offline  
+🎯 SOC Interview Preparation
+
 # 🛡️ SOC Analyst Training Guide (Interactive)
 
 An **interactive, terminal-themed SOC Analyst training guide** designed for beginners who want to understand **Security Operations Center (SOC) concepts, attack detection, and incident response** in a structured and visual way.
