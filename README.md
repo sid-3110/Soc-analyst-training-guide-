@@ -1,389 +1,144 @@
+# 🛡️ SOC Analyst Complete Training Guide
 
+> A free, interactive, browser-based training guide for aspiring SOC Level 1 Analysts — built by a cybersecurity learner, for cybersecurity learners.
 
-Interactive terminal-style training guide for aspiring SOC Analysts.
-
-Learn core blue team concepts including:
-SOC Architecture • MITRE ATT&CK • Incident Response • Log Analysis • Phishing Investigation • Malware Basics • Cyber Threat Intelligence
-
-🚀 14 Interactive Modules  
-🧠 Beginner Friendly  
-⚡ Fully Offline  
-🎯 SOC Interview Preparation
-
-![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-blue)
-![Focus](https://img.shields.io/badge/Focus-SOC%20Operations-green)
-![Modules](https://img.shields.io/badge/Modules-14-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-# 🛡️ SOC Analyst Training Guide (Interactive)
-
-An **interactive, terminal-themed SOC Analyst training guide** designed for beginners who want to understand **Security Operations Center (SOC) concepts, attack detection, and incident response** in a structured and visual way.
-
-This project presents **core blue team knowledge** in an engaging format with **interactive modules, diagrams, and real-world examples**.
-
-It is built as a **fully offline single HTML file** — no external dependencies required.
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Guide-1d4ed8?style=for-the-badge)](https://YOUR_USERNAME.github.io/soc-analyst-guide)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Modules](https://img.shields.io/badge/Modules-18-blue?style=for-the-badge)]()
+[![No Install](https://img.shields.io/badge/Setup-Zero_Install-orange?style=for-the-badge)]()
 
 ---
 
-# 🚀 Project Overview
+## 🎯 Who Is This For?
 
-The **SOC Analyst Training Guide** simulates a structured training path used in real SOC environments.
-
-It explains key concepts such as:
-
-* Security Operations Center workflows
-* Log analysis
-* Threat detection
-* MITRE ATT&CK techniques
-* Incident response
-* Malware analysis
-* Phishing investigations
-* Threat intelligence
-
-The guide is **interactive, easy to navigate, and beginner-friendly**, making it useful for:
-
-* SOC Analyst learners
-* Cybersecurity students
-* Blue Team beginners
-* Security enthusiasts preparing for interviews
+- 🎓 Students entering cybersecurity for the first time
+- 🔄 Career changers transitioning into a SOC analyst role
+- 📚 Anyone preparing for **Security+**, **BTL1**, **CySA+**, or **SC-200**
+- 💼 SOC L1 interview candidates who want structured, practical knowledge
+- 🧠 Existing analysts who want a clean reference guide
 
 ---
 
-# 📚 Modules Included
+## 📚 What's Inside — 18 Modules
 
-The guide includes **14 comprehensive modules** covering fundamental SOC knowledge.
-
-## 1️⃣ What is a SOC
-
-* Definition of Security Operations Center
-* 3 SOC operating models
-* SOC responsibilities
-* Cost statistics
-* Interview insights
-
----
-
-## 2️⃣ SOC Fundamentals
-
-* SOC team structure
-* SOC Analyst levels (L1, L2, L3)
-* Core SOC tools used in real environments
-* Alert lifecycle overview
-
----
-
-## 3️⃣ SOC Environment Architecture
-
-* Interactive diagram showing:
-
-  * Log sources
-  * Log collectors
-  * SIEM
-  * Security analysts
-* Full log flow visualization
+| # | Module | What You'll Learn |
+|---|--------|-------------------|
+| 01 | **What is a SOC?** | Definition, operating models, why SOCs exist |
+| 02 | **SOC Fundamentals** | L1/L2/L3 roles, core tools (SIEM, EDR, SOAR, TIP) |
+| 03 | **SOC Environment Diagram** | Full org topology — how logs flow from endpoints to analyst |
+| 04 | **Networking for SOC** | OSI model, critical ports, Wireshark basics |
+| 05 | **OS Knowledge** | Windows Event IDs, Linux logs, suspicious process patterns |
+| 06 | **Cyber Kill Chain** | All 7 stages with a complete real attack story walkthrough |
+| 07 | **MITRE ATT&CK Framework** | Full definition, all 14 tactics with techniques + real-world examples |
+| 08 | **Incident Response** | NIST vs SANS PICERL — all 6 phases with analyst actions |
+| 09 | **SOAR** | What SOAR is, automated playbook flow, top 5 platforms |
+| 10 | **Security Frameworks** | NIST CSF, ISO 27001, CIS Controls, Diamond Model |
+| 11 | **Phishing Email Analysis** | Annotated fake email + 6-step L1 investigation process |
+| 12 | **Malware Analysis** | Static vs Dynamic analysis, 5-step L1 triage |
+| 13 | **Network Log Analysis** | Firewall log examples, DNS beaconing patterns |
+| 14 | **Cyber Threat Intelligence** | Intel types, IOCs, 6 free CTI tools |
+| 15 | **Risk Assessment** | Risk formula, 5-step process, risk heat map matrix |
+| 16 | **Compliance Laws** | PCI-DSS, HIPAA, ISO 27001, GDPR — with SOC relevance |
+| 17 | **All Cyber Attacks** | 25 attacks (Web, Cloud, Network, Malware, Phishing) with DPR cards |
+| 18 | **Tools & Certifications** | 9 tools, 6 certs, 6 free platforms, recommended study order |
 
 ---
 
-## 4️⃣ Networking for SOC
+## ✨ Features
 
-Essential networking knowledge including:
-
-* OSI Model
-* Common security ports
-* Network traffic basics
-* Wireshark usage tip
-
----
-
-## 5️⃣ Operating System Knowledge
-
-Important logs for security investigations:
-
-**Windows**
-
-* Key Event IDs
-* Authentication logs
-* Process creation events
-
-**Linux**
-
-* Important log file paths
-* Suspicious process detection
+- **Zero setup** — single HTML file, open in any browser, works fully offline
+- **Interactive attack reference** — 25 attacks filterable by category with expandable Detect / Prevent / Remediate cards
+- **MITRE ATT&CK deep dive** — all 14 tactics with real breach examples (SolarWinds, Colonial Pipeline, NotPetya)
+- **Cyber Kill Chain** — follows a complete attack story through all 7 stages
+- **Keyboard navigation** — use ← → arrow keys to move between modules
+- **Progress tracker** — sidebar shows your completion percentage
+- **Risk & Compliance** — PCI-DSS, HIPAA, ISO 27001, GDPR with SOC analyst relevance
+- **SOAR module** — automated playbook flow, platform comparison
+- **Clean blue & white UI** — professional and easy to read
 
 ---
 
-## 6️⃣ Cyber Kill Chain
+## 🚀 Quick Start
 
-Detailed explanation of the **7 stages of a cyber attack**:
-
-1. Reconnaissance
-2. Weaponization
-3. Delivery
-4. Exploitation
-5. Installation
-6. Command & Control
-7. Actions on Objectives
-
-Includes a **complete attack story example**.
-
----
-
-## 7️⃣ MITRE ATT&CK Framework
-
-Covers all **14 ATT&CK tactics**, including:
-
-* Initial Access
-* Execution
-* Persistence
-* Privilege Escalation
-* Defense Evasion
-* Credential Access
-* Lateral Movement
-* Collection
-* Exfiltration
-
-Includes **T-codes and real-world examples**.
-
----
-
-## 8️⃣ Incident Response
-
-Explains major IR frameworks:
-
-* **NIST Incident Response Lifecycle**
-* **SANS PICERL Model**
-
-Includes **all 6 incident response phases** and analyst responsibilities.
-
----
-
-## 9️⃣ Phishing Analysis
-
-Practical phishing investigation module featuring:
-
-* Annotated phishing email
-* Header inspection tips
-* Domain reputation checks
-* Step-by-step investigation workflow
-
----
-
-## 🔟 Malware Analysis
-
-Beginner-friendly overview of malware investigation:
-
-Types of analysis:
-
-* Static Analysis
-* Dynamic Analysis
-* Code Analysis
-
-Includes malware triage steps used by SOC teams.
-
----
-
-## 1️⃣1️⃣ Network Log Analysis
-
-Realistic log examples demonstrating:
-
-* Suspicious authentication activity
-* Network scanning
-* Attack pattern recognition
-
-Includes **annotation-based explanation**.
-
----
-
-## 1️⃣2️⃣ Cyber Threat Intelligence (CTI)
-
-Introduction to CTI concepts:
-
-* Indicators of Compromise (IOC)
-* Threat actors
-* Threat feeds
-* Free CTI platforms
-
----
-
-## 1️⃣3️⃣ Common Cyber Attacks
-
-Covers **25 common attack types** across multiple domains:
-
-Categories include:
-
-* Web Application Attacks
-* Network Attacks
-* Cloud Attacks
-* Malware Attacks
-* Phishing Attacks
-
-Each attack includes **Detect · Prevent · Remediate (DPR)** sections.
-
----
-
-## 1️⃣4️⃣ Tools & Certifications
-
-Overview of essential tools used by SOC analysts:
-
-### Tools
-
-* SIEM
-* EDR
-* Threat Intelligence Platforms
-* Network Monitoring Tools
-
-### Certifications
-
-* Security+
-* SC-200
-* CySA+
-* eJPT
-* CEH
-* Splunk Certifications
-
-Includes a suggested **learning roadmap**.
-
----
-
-# ✨ Key Features
-
-### 🧭 Sidebar Navigation
-
-Easy module navigation with a **progress bar**.
-
-### ⌨️ Keyboard Navigation
-
-Use arrow keys to move between modules.
-
+### View Online
 ```
-← Previous Module
-→ Next Module
+https://YOUR_USERNAME.github.io/soc-analyst-guide
 ```
 
-### 🔍 Filterable Attack Cards
+### Run Locally
+```bash
+git clone https://github.com/YOUR_USERNAME/soc-analyst-guide.git
+cd soc-analyst-guide
 
-Filter cyber attacks by category:
+# macOS
+open soc-complete-guide-v2.html
 
-* Web
-* Cloud
-* Network
-* Malware
-* Phishing
+# Windows — double-click the file, or:
+start soc-complete-guide-v2.html
 
-### 🧩 Expandable DPR Cards
+# Any OS with Python
+python3 -m http.server 8080
+# then visit http://localhost:8080
+```
 
-Each attack includes expandable sections:
-
-* Detect
-* Prevent
-* Remediate
-
-### 📡 Fully Offline
-
-The entire project runs from a **single HTML file** with no dependencies.
+No npm. No pip. No dependencies. One file.
 
 ---
 
-# 🛠️ Tech Stack
-
-* HTML5
-* CSS3
-* Vanilla JavaScript
-* SVG for diagrams
-
-No frameworks or libraries used.
-
----
-
-# 📂 Project Structure
+## 🗂️ Repository Structure
 
 ```
-SOC-Analyst-Training-Guide/
-│
-├── index.html
-├── README.md
+soc-analyst-guide/
+├── soc-complete-guide-v2.html    # The full interactive training guide
+├── README.md                     # This file
+└── LICENSE                       # MIT License
 ```
 
 ---
 
-# ▶️ How to Run
-
-1. Clone the repository
+## 🎓 Recommended Learning Path
 
 ```
-git clone https://github.com/yourusername/soc-analyst-training-guide.git
+1. Google Cybersecurity Certificate   →  foundations
+2. TryHackMe SOC L1 Path             →  hands-on labs
+3. CompTIA Security+                 →  core certification
+4. LetsDefend.io                     →  real SOC simulation
+5. BTL1 or CySA+                     →  advanced SOC cert
+6. Apply for L1 roles                →  🚀
 ```
 
-2. Open the project
+---
 
-```
-open index.html
-```
+## 🤝 Contributing
 
-Or simply double-click the file in your browser.
+Found an error or want to add a module? Contributions are welcome.
 
-No installation required.
+1. Fork the repo
+2. Create your branch: `git checkout -b feature/your-improvement`
+3. Commit your changes: `git commit -m 'Add: your description'`
+4. Push and open a Pull Request
+
+Areas most needed: cloud security scenarios, Splunk SPL queries, KQL examples, additional real-world breach walkthroughs.
 
 ---
 
-# 🎯 Who This Project Is For
+## ⭐ Star This Repo
 
-* Aspiring SOC Analysts
-* Cybersecurity students
-* Blue Team beginners
-* Interview preparation
-* Security enthusiasts
+If this guide helped you — please star it. It helps other learners find it.
 
 ---
 
-# 🧠 Learning Outcomes
+## 📜 License
 
-After completing this guide, learners will understand:
-
-* SOC architecture
-* Security monitoring workflow
-* Log analysis basics
-* Threat detection techniques
-* Incident response fundamentals
-* Common cyber attacks
+MIT — free to use, share, and modify.
 
 ---
 
-# 📌 Future Improvements
+## 🔗 Connect
 
-Planned enhancements include:
-
-* SIEM alert simulation
-* Interactive log investigation lab
-* Threat hunting exercises
-* SOC investigation scenarios
+Built by **[YOUR NAME]**
+- LinkedIn: [linkedin.com/in/YOUR_HANDLE](https://linkedin.com/in/YOUR_HANDLE)
+- GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
 
 ---
-
-# 🤝 Contributions
-
-Contributions are welcome!
-
-If you'd like to improve the project:
-
-* Submit a pull request
-* Open an issue
-* Suggest new learning modules
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-# 👨‍💻 Author
-
-**Siddharth**
-
-Cybersecurity enthusiast focused on **Security Operations, Threat Detection, and Blue Teaming**.
-
----
-
-⭐ If you found this project helpful, consider giving it a star!
+*Cybersecurity moves fast — if something is outdated, please open an issue.*
