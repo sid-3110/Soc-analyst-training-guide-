@@ -1,4 +1,4 @@
-# 🛡 SOC Analyst Training Guide
+
 
 Interactive terminal-style training guide for aspiring SOC Analysts.
 
@@ -9,6 +9,11 @@ SOC Architecture • MITRE ATT&CK • Incident Response • Log Analysis • Phi
 🧠 Beginner Friendly  
 ⚡ Fully Offline  
 🎯 SOC Interview Preparation
+
+![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-blue)
+![Focus](https://img.shields.io/badge/Focus-SOC%20Operations-green)
+![Modules](https://img.shields.io/badge/Modules-14-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 # 🛡️ SOC Analyst Training Guide (Interactive)
 
