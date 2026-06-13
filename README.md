@@ -1,3 +1,6 @@
+
+website Url: https://sid-3110.github.io/Soc-analyst-training-guide-/
+
 # 🛡️ SOC Analyst Complete Training Guide
 
 > A free, interactive, browser-based training guide for aspiring SOC Level 1 Analysts — built by a cybersecurity learner, for cybersecurity learners.
